@@ -1,0 +1,82 @@
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: 'Jura', sans-serif;
+     color: rgb(97, 97, 97);
+ }
+#main{
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 90%;
+    
+}
+ 
+ #cards {
+    
+     
+     border-radius: 10px;
+     
+     display: grid;
+     grid-template-columns: repeat(5, 150px);
+     gap: 70px;
+     margin-bottom:70px; }
+
+     @media screen and (max-width:768px) {
+        #cards{
+             grid-template-columns: repeat(3, 150px);
+        }
+        #element9 {
+             margin-top: 10px;}
+        
+        
+     }
+     @media screen and (max-width:414px) {
+        #cards {
+             grid-template-columns: repeat(1, 150px);
+         }
+     }
+
+    
+ 
+
+
+.image {
+    background-color: cornflowerblue;
+   
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-radius: 10px;
+    height: 120px;
+    
+    
+}
+
+.image img {
+    width: 100%;
+    
+   
+    
+
+   
+}
+h1{
+    font-size: 20px;
+    padding: 10px;
+
+}
+ .title {
+   
+   text-align: center;
+   background-color: rgb(222, 224, 252);
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px ;
+  padding: 10px;
+   
+   
+  
+ }
+.title p {
+    margin: 0;
+}
+
+
